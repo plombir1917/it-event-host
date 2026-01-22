@@ -167,10 +167,10 @@
               </div>
             </div>
 
-            <!-- Сертификаты Яндекс (галерея) -->
+            <!-- Сертификаты о ДПО (галерея) -->
             <div>
               <h4 class="text-lg font-semibold text-primary-900 mb-4">
-                Сертификаты Яндекс
+                Сертификаты о ДПО
               </h4>
               <div class="grid grid-cols-2 gap-4">
                 <button
