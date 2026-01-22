@@ -105,7 +105,7 @@
               <NuxtImg
                 src="/images/hero/portrait.jpg"
                 alt="Ведущий-программист на сцене"
-                class="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-1000"
+                class="w-full h-full object-cover transition-all duration-1000"
                 loading="eager"
                 format="webp"
                 quality="90"
