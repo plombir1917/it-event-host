@@ -18,152 +18,208 @@
         <!-- Сетка кейсов -->
         <div class="grid md:grid-cols-2 gap-8 lg:gap-12">
           <!-- Кейс 1 -->
-          <div class="bg-white border-2 border-primary-200 p-8 hover:border-primary-900 transition-all duration-300">
-            <div class="mb-6">
-              <span
-                class="inline-block px-4 py-1 bg-primary-900 text-white text-sm font-semibold mb-4"
-              >
-                Конференция
-              </span>
-              <h3 class="text-2xl md:text-3xl font-bold text-primary-900 mb-3">
-                JavaScript Summit 2024
-              </h3>
-              <p class="text-primary-600 text-sm">Москва • 500+ участников</p>
+          <div class="bg-white border-2 border-primary-200 overflow-hidden hover:border-primary-900 transition-all duration-300 group">
+            <div class="relative aspect-video overflow-hidden">
+              <NuxtImg
+                src="/images/cases/first.jpg"
+                alt="Всероссийский форум «ИТ-Академ» - Форум"
+                class="w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-700"
+                loading="lazy"
+                format="webp"
+                quality="85"
+                sizes="sm:100vw md:50vw lg:50vw"
+                :modifiers="{ sat: -100, con: 20 }"
+              />
             </div>
-            <p class="text-primary-700 leading-relaxed mb-6">
-              Ведущий главной сцены на двухдневной конференции. Модерация 12
-              технических сессий, интервью с ключевыми спикерами, управление
-              Q&A сессиями. Положительные отзывы от организаторов и участников.
-            </p>
-            <div class="flex flex-wrap gap-2">
-              <span
-                class="px-3 py-1 bg-primary-100 text-primary-700 text-xs font-medium"
-              >
-                Модерация
-              </span>
-              <span
-                class="px-3 py-1 bg-primary-100 text-primary-700 text-xs font-medium"
-              >
-                Интервью
-              </span>
-              <span
-                class="px-3 py-1 bg-primary-100 text-primary-700 text-xs font-medium"
-              >
-                Q&A
-              </span>
+            <div class="p-8">
+              <div class="mb-6">
+                <span
+                  class="inline-block px-4 py-1 bg-primary-900 text-white text-sm font-semibold mb-4"
+                >
+                  Форум
+                </span>
+                <h3 class="text-2xl md:text-3xl font-bold text-primary-900 mb-3">
+                  Всероссийский форум «ИТ-Академ»
+                </h3>
+                <p class="text-primary-600 text-sm">Прометей • 200+ участников</p>
+              </div>
+              <p class="text-primary-700 leading-relaxed mb-6">
+                Ведущий главной сцены на двухдневной конференции. Модерация 12
+                технических сессий, интервью с ключевыми спикерами, управление
+                Q&A сессиями. Положительные отзывы от организаторов и участников.
+              </p>
+              <div class="flex flex-wrap gap-2">
+                <span
+                  class="px-3 py-1 bg-primary-100 text-primary-700 text-xs font-medium"
+                >
+                  Модерация
+                </span>
+                <span
+                  class="px-3 py-1 bg-primary-100 text-primary-700 text-xs font-medium"
+                >
+                  Интервью
+                </span>
+                <span
+                  class="px-3 py-1 bg-primary-100 text-primary-700 text-xs font-medium"
+                >
+                  Q&A
+                </span>
+              </div>
             </div>
           </div>
 
           <!-- Кейс 2 -->
-          <div class="bg-white border-2 border-primary-200 p-8 hover:border-primary-900 transition-all duration-300">
-            <div class="mb-6">
-              <span
-                class="inline-block px-4 py-1 bg-primary-900 text-white text-sm font-semibold mb-4"
-              >
-                Хакатон
-              </span>
-              <h3 class="text-2xl md:text-3xl font-bold text-primary-900 mb-3">
-                FinTech Hackathon 2024
-              </h3>
-              <p class="text-primary-600 text-sm">Санкт-Петербург • 200+ участников</p>
+          <div class="bg-white border-2 border-primary-200 overflow-hidden hover:border-primary-900 transition-all duration-300 group">
+            <div class="relative aspect-video overflow-hidden">
+              <NuxtImg
+                src="/images/cases/second.jpg"
+                alt="FinTech Hackathon 2024 - Хакатон"
+                class="w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-700"
+                loading="lazy"
+                format="webp"
+                quality="85"
+                sizes="sm:100vw md:50vw lg:50vw"
+                :modifiers="{ sat: -100, con: 20 }"
+              />
             </div>
-            <p class="text-primary-700 leading-relaxed mb-6">
-              Полное ведение 48-часового хакатона. Открытие, техническая
-              поддержка команд, презентация проектов, награждение. Создание
-              энергичной атмосферы, поддержание мотивации участников на
-              протяжении всего события.
-            </p>
-            <div class="flex flex-wrap gap-2">
-              <span
-                class="px-3 py-1 bg-primary-100 text-primary-700 text-xs font-medium"
-              >
-                Ведущий
-              </span>
-              <span
-                class="px-3 py-1 bg-primary-100 text-primary-700 text-xs font-medium"
-              >
-                Техподдержка
-              </span>
-              <span
-                class="px-3 py-1 bg-primary-100 text-primary-700 text-xs font-medium"
-              >
-                Презентации
-              </span>
+            <div class="p-8">
+              <div class="mb-6">
+                <span
+                  class="inline-block px-4 py-1 bg-primary-900 text-white text-sm font-semibold mb-4"
+                >
+                  Хакатон
+                </span>
+                <h3 class="text-2xl md:text-3xl font-bold text-primary-900 mb-3">
+                  FinTech Hackathon 2024
+                </h3>
+                <p class="text-primary-600 text-sm">Санкт-Петербург • 200+ участников</p>
+              </div>
+              <p class="text-primary-700 leading-relaxed mb-6">
+                Полное ведение 48-часового хакатона. Открытие, техническая
+                поддержка команд, презентация проектов, награждение. Создание
+                энергичной атмосферы, поддержание мотивации участников на
+                протяжении всего события.
+              </p>
+              <div class="flex flex-wrap gap-2">
+                <span
+                  class="px-3 py-1 bg-primary-100 text-primary-700 text-xs font-medium"
+                >
+                  Ведущий
+                </span>
+                <span
+                  class="px-3 py-1 bg-primary-100 text-primary-700 text-xs font-medium"
+                >
+                  Техподдержка
+                </span>
+                <span
+                  class="px-3 py-1 bg-primary-100 text-primary-700 text-xs font-medium"
+                >
+                  Презентации
+                </span>
+              </div>
             </div>
           </div>
 
           <!-- Кейс 3 -->
-          <div class="bg-white border-2 border-primary-200 p-8 hover:border-primary-900 transition-all duration-300">
-            <div class="mb-6">
-              <span
-                class="inline-block px-4 py-1 bg-primary-900 text-white text-sm font-semibold mb-4"
-              >
-                Корпоративное событие
-              </span>
-              <h3 class="text-2xl md:text-3xl font-bold text-primary-900 mb-3">
-                Product Launch Event
-              </h3>
-              <p class="text-primary-600 text-sm">Онлайн • 1000+ зрителей</p>
+          <div class="bg-white border-2 border-primary-200 overflow-hidden hover:border-primary-900 transition-all duration-300 group">
+            <div class="relative aspect-video overflow-hidden">
+              <NuxtImg
+                src="/images/cases/third.jpg"
+                alt="Product Launch Event - Корпоративное событие"
+                class="w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-700"
+                loading="lazy"
+                format="webp"
+                quality="85"
+                sizes="sm:100vw md:50vw lg:50vw"
+                :modifiers="{ sat: -100, con: 20 }"
+              />
             </div>
-            <p class="text-primary-700 leading-relaxed mb-6">
-              Ведущий онлайн-презентации нового продукта крупной IT-компании.
-              Модерация панели с CEO и CTO, техническая демонстрация,
-              интерактивные сессии с аудиторией. Высокий уровень вовлечённости
-              зрителей.
-            </p>
-            <div class="flex flex-wrap gap-2">
-              <span
-                class="px-3 py-1 bg-primary-100 text-primary-700 text-xs font-medium"
-              >
-                Онлайн
-              </span>
-              <span
-                class="px-3 py-1 bg-primary-100 text-primary-700 text-xs font-medium"
-              >
-                Панель
-              </span>
-              <span
-                class="px-3 py-1 bg-primary-100 text-primary-700 text-xs font-medium"
-              >
-                Демо
-              </span>
+            <div class="p-8">
+              <div class="mb-6">
+                <span
+                  class="inline-block px-4 py-1 bg-primary-900 text-white text-sm font-semibold mb-4"
+                >
+                  Корпоративное событие
+                </span>
+                <h3 class="text-2xl md:text-3xl font-bold text-primary-900 mb-3">
+                  Product Launch Event
+                </h3>
+                <p class="text-primary-600 text-sm">Онлайн • 1000+ зрителей</p>
+              </div>
+              <p class="text-primary-700 leading-relaxed mb-6">
+                Ведущий онлайн-презентации нового продукта крупной IT-компании.
+                Модерация панели с CEO и CTO, техническая демонстрация,
+                интерактивные сессии с аудиторией. Высокий уровень вовлечённости
+                зрителей.
+              </p>
+              <div class="flex flex-wrap gap-2">
+                <span
+                  class="px-3 py-1 bg-primary-100 text-primary-700 text-xs font-medium"
+                >
+                  Онлайн
+                </span>
+                <span
+                  class="px-3 py-1 bg-primary-100 text-primary-700 text-xs font-medium"
+                >
+                  Панель
+                </span>
+                <span
+                  class="px-3 py-1 bg-primary-100 text-primary-700 text-xs font-medium"
+                >
+                  Демо
+                </span>
+              </div>
             </div>
           </div>
 
           <!-- Кейс 4 -->
-          <div class="bg-white border-2 border-primary-200 p-8 hover:border-primary-900 transition-all duration-300">
-            <div class="mb-6">
-              <span
-                class="inline-block px-4 py-1 bg-primary-900 text-white text-sm font-semibold mb-4"
-              >
-                Митап
-              </span>
-              <h3 class="text-2xl md:text-3xl font-bold text-primary-900 mb-3">
-                React Community Meetup
-              </h3>
-              <p class="text-primary-600 text-sm">Москва • 150+ участников</p>
+          <div class="bg-white border-2 border-primary-200 overflow-hidden hover:border-primary-900 transition-all duration-300 group">
+            <div class="relative aspect-video overflow-hidden">
+              <NuxtImg
+                src="/images/cases/fourth.jpg"
+                alt="React Community Meetup - Митап"
+                class="w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-700"
+                loading="lazy"
+                format="webp"
+                quality="85"
+                sizes="sm:100vw md:50vw lg:50vw"
+                :modifiers="{ sat: -100, con: 20 }"
+              />
             </div>
-            <p class="text-primary-700 leading-relaxed mb-6">
-              Регулярное ведение митапов React-сообщества. Модерация докладов,
-              технические дискуссии, нетворкинг-сессии. Создание комфортной
-              атмосферы для обмена опытом между разработчиками разных уровней.
-            </p>
-            <div class="flex flex-wrap gap-2">
-              <span
-                class="px-3 py-1 bg-primary-100 text-primary-700 text-xs font-medium"
-              >
-                Митап
-              </span>
-              <span
-                class="px-3 py-1 bg-primary-100 text-primary-700 text-xs font-medium"
-              >
-                Нетворкинг
-              </span>
-              <span
-                class="px-3 py-1 bg-primary-100 text-primary-700 text-xs font-medium"
-              >
-                Сообщество
-              </span>
+            <div class="p-8">
+              <div class="mb-6">
+                <span
+                  class="inline-block px-4 py-1 bg-primary-900 text-white text-sm font-semibold mb-4"
+                >
+                  Митап
+                </span>
+                <h3 class="text-2xl md:text-3xl font-bold text-primary-900 mb-3">
+                  React Community Meetup
+                </h3>
+                <p class="text-primary-600 text-sm">Москва • 150+ участников</p>
+              </div>
+              <p class="text-primary-700 leading-relaxed mb-6">
+                Регулярное ведение митапов React-сообщества. Модерация докладов,
+                технические дискуссии, нетворкинг-сессии. Создание комфортной
+                атмосферы для обмена опытом между разработчиками разных уровней.
+              </p>
+              <div class="flex flex-wrap gap-2">
+                <span
+                  class="px-3 py-1 bg-primary-100 text-primary-700 text-xs font-medium"
+                >
+                  Митап
+                </span>
+                <span
+                  class="px-3 py-1 bg-primary-100 text-primary-700 text-xs font-medium"
+                >
+                  Нетворкинг
+                </span>
+                <span
+                  class="px-3 py-1 bg-primary-100 text-primary-700 text-xs font-medium"
+                >
+                  Сообщество
+                </span>
+              </div>
             </div>
           </div>
         </div>

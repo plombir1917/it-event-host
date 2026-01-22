@@ -30,9 +30,22 @@
                 понять тему. Наше мероприятие вышло на новый уровень."
               </p>
             </div>
-            <div>
-              <div class="font-bold text-primary-900">Анна Петрова</div>
-              <div class="text-sm text-primary-600">Организатор JavaScript Summit</div>
+            <div class="flex items-center gap-4">
+              <div class="flex-shrink-0">
+                <NuxtImg
+                  src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=100&h=100&fit=crop&q=80&auto=format"
+                  alt="Анна Петрова"
+                  class="w-12 h-12 rounded-full object-cover grayscale"
+                  loading="lazy"
+                  format="webp"
+                  quality="85"
+                  :modifiers="{ sat: -100 }"
+                />
+              </div>
+              <div>
+                <div class="font-bold text-primary-900">Анна Петрова</div>
+                <div class="text-sm text-primary-600">Организатор JavaScript Summit</div>
+              </div>
             </div>
           </div>
 
@@ -48,9 +61,22 @@
                 Спасибо за отличную работу на нашем хакатоне!"
               </p>
             </div>
-            <div>
-              <div class="font-bold text-primary-900">Дмитрий Смирнов</div>
-              <div class="text-sm text-primary-600">CEO, TechEvents Agency</div>
+            <div class="flex items-center gap-4">
+              <div class="flex-shrink-0">
+                <NuxtImg
+                  src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=100&h=100&fit=crop&q=80&auto=format"
+                  alt="Дмитрий Смирнов"
+                  class="w-12 h-12 rounded-full object-cover grayscale"
+                  loading="lazy"
+                  format="webp"
+                  quality="85"
+                  :modifiers="{ sat: -100 }"
+                />
+              </div>
+              <div>
+                <div class="font-bold text-primary-900">Дмитрий Смирнов</div>
+                <div class="text-sm text-primary-600">CEO, TechEvents Agency</div>
+              </div>
             </div>
           </div>
 
@@ -67,9 +93,22 @@
                 редкость."
               </p>
             </div>
-            <div>
-              <div class="font-bold text-primary-900">Иван Козлов</div>
-              <div class="text-sm text-primary-600">Senior Developer</div>
+            <div class="flex items-center gap-4">
+              <div class="flex-shrink-0">
+                <NuxtImg
+                  src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=100&h=100&fit=crop&q=80&auto=format"
+                  alt="Иван Козлов"
+                  class="w-12 h-12 rounded-full object-cover grayscale"
+                  loading="lazy"
+                  format="webp"
+                  quality="85"
+                  :modifiers="{ sat: -100 }"
+                />
+              </div>
+              <div>
+                <div class="font-bold text-primary-900">Иван Козлов</div>
+                <div class="text-sm text-primary-600">Senior Developer</div>
+              </div>
             </div>
           </div>
 
@@ -85,9 +124,22 @@
                 а создавать контент вместе со спикерами. Рекомендую."
               </p>
             </div>
-            <div>
-              <div class="font-bold">Мария Волкова</div>
-              <div class="text-sm text-primary-300">Event Manager, BigTech Corp</div>
+            <div class="flex items-center gap-4">
+              <div class="flex-shrink-0">
+                <NuxtImg
+                  src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=100&h=100&fit=crop&q=80&auto=format"
+                  alt="Мария Волкова"
+                  class="w-12 h-12 rounded-full object-cover grayscale opacity-80"
+                  loading="lazy"
+                  format="webp"
+                  quality="85"
+                  :modifiers="{ sat: -100 }"
+                />
+              </div>
+              <div>
+                <div class="font-bold">Мария Волкова</div>
+                <div class="text-sm text-primary-300">Event Manager, BigTech Corp</div>
+              </div>
             </div>
           </div>
 
@@ -103,9 +155,22 @@
                 не потеряв темп мероприятия. Настоящий профессионал."
               </p>
             </div>
-            <div>
-              <div class="font-bold text-primary-900">Сергей Новиков</div>
-              <div class="text-sm text-primary-600">CTO, Startup Inc</div>
+            <div class="flex items-center gap-4">
+              <div class="flex-shrink-0">
+                <NuxtImg
+                  src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=100&h=100&fit=crop&q=80&auto=format"
+                  alt="Сергей Новиков"
+                  class="w-12 h-12 rounded-full object-cover grayscale"
+                  loading="lazy"
+                  format="webp"
+                  quality="85"
+                  :modifiers="{ sat: -100 }"
+                />
+              </div>
+              <div>
+                <div class="font-bold text-primary-900">Сергей Новиков</div>
+                <div class="text-sm text-primary-600">CTO, Startup Inc</div>
+              </div>
             </div>
           </div>
 
@@ -121,9 +186,22 @@
                 обязательно пригласим его снова."
               </p>
             </div>
-            <div>
-              <div class="font-bold text-primary-900">Елена Соколова</div>
-              <div class="text-sm text-primary-600">Community Lead</div>
+            <div class="flex items-center gap-4">
+              <div class="flex-shrink-0">
+                <NuxtImg
+                  src="https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=100&h=100&fit=crop&q=80&auto=format"
+                  alt="Елена Соколова"
+                  class="w-12 h-12 rounded-full object-cover grayscale"
+                  loading="lazy"
+                  format="webp"
+                  quality="85"
+                  :modifiers="{ sat: -100 }"
+                />
+              </div>
+              <div>
+                <div class="font-bold text-primary-900">Елена Соколова</div>
+                <div class="text-sm text-primary-600">Community Lead</div>
+              </div>
             </div>
           </div>
         </div>

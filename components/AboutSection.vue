@@ -17,8 +17,29 @@
 
         <!-- Основной контент -->
         <div class="grid md:grid-cols-2 gap-12 lg:gap-20 items-center">
+          <!-- Изображение (на мобильных сверху) -->
+          <div class="order-2 md:order-1">
+            <div class="relative aspect-[4/5] overflow-hidden">
+              <!-- Градиентный оверлей -->
+              <div
+                class="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-primary-900/30 z-10"
+              ></div>
+
+              <NuxtImg
+                src="https://images.unsplash.com/photo-1540575467063-178a50c2df87?w=800&h=1000&fit=crop&q=80&auto=format"
+                alt="Ведущий на сцене, взаимодействие с аудиторией"
+                class="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-1000"
+                loading="lazy"
+                format="webp"
+                quality="90"
+                sizes="sm:100vw md:50vw lg:50vw"
+                :modifiers="{ sat: -100, con: 15 }"
+              />
+            </div>
+          </div>
+
           <!-- Текстовый блок -->
-          <div class="space-y-6">
+          <div class="space-y-6 order-1 md:order-2">
             <p
               class="text-lg md:text-xl text-primary-700 leading-relaxed font-light"
             >
