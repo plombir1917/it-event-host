@@ -3,6 +3,7 @@
     <HeaderSection />
     <HeroSection />
     <AboutSection />
+    <VideoSection />
     <ServicesSection />
     <WhyMeSection />
     <CasesSection />
