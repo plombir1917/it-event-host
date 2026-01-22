@@ -81,7 +81,7 @@ npm run preview
 ### Контакты
 
 Измените контактные данные в:
-- `components/CTASection.vue` - email и телефон в форме
+- `components/CTASection.vue` - email и Telegram в форме
 - `components/FooterSection.vue` - контакты в футере
 
 ### Контент
