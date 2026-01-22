@@ -11,7 +11,7 @@
           class="text-2xl font-black text-primary-900 hover:text-primary-700 transition-colors"
           @click.prevent="scrollToTop"
         >
-          IT Event Host
+          Захар Копич
         </a>
 
         <!-- Навигационные ссылки (Desktop) -->

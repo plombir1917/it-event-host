@@ -27,7 +27,7 @@
           <p
             class="text-xl md:text-2xl text-primary-200 font-light max-w-3xl mx-auto leading-relaxed"
           >
-            Не просто спикер — двигатель IT-событий.
+            Не просто спикер — двигатель IT-сообщества.
           </p>
           <div class="w-24 h-1 bg-white mx-auto mt-6"></div>
         </div>

@@ -174,7 +174,7 @@
                     d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"
                   ></path>
                 </svg>
-                <span>contact@example.com</span>
+                <span>kopich.zakhar@yandex.ru</span>
               </a>
               <span class="hidden sm:inline text-white/30">•</span>
               <a
@@ -194,7 +194,7 @@
                     d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"
                   ></path>
                 </svg>
-                <span>+7 (999) 123-45-67</span>
+                <span>+7 (920) 247-xx-xx</span>
               </a>
             </div>
           </div>
@@ -220,7 +220,7 @@ const handleSubmit = () => {
   // Например, отправка на API или email
   console.log('Form submitted:', form.value)
   alert('Спасибо за ваш запрос! Я свяжусь с вами в ближайшее время.')
-  
+
   // Сброс формы
   form.value = {
     name: '',

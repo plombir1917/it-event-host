@@ -45,7 +45,7 @@
             >
               Я не просто ведущий, который читает сценарий. Я программист с
               <strong class="font-semibold text-primary-900"
-                >10+ годами опыта</strong
+                >5+ годами опыта</strong
               >
               в разработке, который понимает ваш продукт изнутри.
             </p>
@@ -122,7 +122,7 @@
                   <div
                     class="text-5xl md:text-6xl lg:text-7xl font-black mb-2"
                   >
-                    10+
+                    5+
                   </div>
                   <div class="text-lg md:text-xl text-primary-200">
                     Лет в программировании
