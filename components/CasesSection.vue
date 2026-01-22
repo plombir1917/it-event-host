@@ -1,5 +1,8 @@
 <template>
-  <section id="cases" class="py-24 md:py-32 lg:py-40 bg-primary-50 relative overflow-hidden">
+  <section
+    id="cases"
+    class="py-24 md:py-32 lg:py-40 bg-primary-50 relative overflow-hidden"
+  >
     <div class="container mx-auto px-6 lg:px-8">
       <div class="max-w-6xl mx-auto">
         <!-- Заголовок секции -->
@@ -9,7 +12,9 @@
           >
             Опыт и кейсы
           </h2>
-          <p class="text-xl md:text-2xl text-primary-600 font-light max-w-2xl mx-auto">
+          <p
+            class="text-xl md:text-2xl text-primary-600 font-light max-w-2xl mx-auto"
+          >
             Реальные мероприятия, реальные результаты
           </p>
           <div class="w-24 h-1 bg-primary-900 mx-auto mt-6"></div>
@@ -18,7 +23,9 @@
         <!-- Сетка кейсов -->
         <div class="grid md:grid-cols-2 gap-8 lg:gap-12">
           <!-- Кейс 1 -->
-          <div class="bg-white border-2 border-primary-200 overflow-hidden hover:border-primary-900 transition-all duration-300 group">
+          <div
+            class="bg-white border-2 border-primary-200 overflow-hidden hover:border-primary-900 transition-all duration-300 group"
+          >
             <div class="relative aspect-video overflow-hidden">
               <NuxtImg
                 src="/images/cases/first.jpg"
@@ -38,15 +45,20 @@
                 >
                   Форум
                 </span>
-                <h3 class="text-2xl md:text-3xl font-bold text-primary-900 mb-3">
-                  Всероссийский форум «ИТ-Академ»
+                <h3
+                  class="text-2xl md:text-3xl font-bold text-primary-900 mb-3"
+                >
+                  Всероссийский форум <br />
+                  «ИТ-Академ»
                 </h3>
-                <p class="text-primary-600 text-sm">СОК "Прометей" • 200+ участников</p>
+                <p class="text-primary-600 text-sm">
+                  СОК "Прометей" • 200+ участников
+                </p>
               </div>
               <p class="text-primary-700 leading-relaxed mb-6">
-                Ведущий главной сцены на закрытии форума. Модерация награждения 100+ человек,
-                интервью с ключевыми спикерами, управление
-                Q&A сессиями. Положительные отзывы от организаторов и участников.
+                Ведущий главной сцены на закрытии форума. Модерация награждения
+                100+ человек, интервью с ключевыми спикерами, управление Q&A
+                сессиями. Положительные отзывы от организаторов и участников.
               </p>
               <div class="flex flex-wrap gap-2">
                 <span
@@ -69,7 +81,9 @@
           </div>
 
           <!-- Кейс 2 -->
-          <div class="bg-white border-2 border-primary-200 overflow-hidden hover:border-primary-900 transition-all duration-300 group">
+          <div
+            class="bg-white border-2 border-primary-200 overflow-hidden hover:border-primary-900 transition-all duration-300 group"
+          >
             <div class="relative aspect-video overflow-hidden">
               <NuxtImg
                 src="/images/cases/second.jpg"
@@ -89,10 +103,14 @@
                 >
                   Хакатон
                 </span>
-                <h3 class="text-2xl md:text-3xl font-bold text-primary-900 mb-3">
+                <h3
+                  class="text-2xl md:text-3xl font-bold text-primary-900 mb-3"
+                >
                   IT-Хакатон 2025
                 </h3>
-                <p class="text-primary-600 text-sm">Школа 21 • 200+ участников</p>
+                <p class="text-primary-600 text-sm">
+                  Школа 21 • 200+ участников
+                </p>
               </div>
               <p class="text-primary-700 leading-relaxed mb-6">
                 Полное ведение 48-часового хакатона. Открытие, техническая
@@ -121,7 +139,9 @@
           </div>
 
           <!-- Кейс 3 -->
-          <div class="bg-white border-2 border-primary-200 overflow-hidden hover:border-primary-900 transition-all duration-300 group">
+          <div
+            class="bg-white border-2 border-primary-200 overflow-hidden hover:border-primary-900 transition-all duration-300 group"
+          >
             <div class="relative aspect-video overflow-hidden">
               <NuxtImg
                 src="/images/cases/third.jpg"
@@ -141,14 +161,18 @@
                 >
                   Корпоративное событие
                 </span>
-                <h3 class="text-2xl md:text-3xl font-bold text-primary-900 mb-3">
+                <h3
+                  class="text-2xl md:text-3xl font-bold text-primary-900 mb-3"
+                >
                   Фестиваль IT-культуры
                 </h3>
-                <p class="text-primary-600 text-sm">Разные площадки • 1000+ зрителей</p>
+                <p class="text-primary-600 text-sm">
+                  Разные площадки • 1000+ зрителей
+                </p>
               </div>
               <p class="text-primary-700 leading-relaxed mb-6">
-                Ведущий VI ежегодного фестиваля IT-культуры.
-                В течение недели был проводником в атмосферу технологий, вдохновения и IT.
+                Ведущий VI ежегодного фестиваля IT-культуры. В течение недели
+                был проводником в атмосферу технологий, вдохновения и IT.
                 Интерактивные сессии с аудиторией, высокий уровень вовлечённости
                 зрителей.
               </p>
@@ -173,7 +197,9 @@
           </div>
 
           <!-- Кейс 4 -->
-          <div class="bg-white border-2 border-primary-200 overflow-hidden hover:border-primary-900 transition-all duration-300 group">
+          <div
+            class="bg-white border-2 border-primary-200 overflow-hidden hover:border-primary-900 transition-all duration-300 group"
+          >
             <div class="relative aspect-video overflow-hidden">
               <NuxtImg
                 src="/images/cases/fourth.jpg"
@@ -193,15 +219,20 @@
                 >
                   Митап
                 </span>
-                <h3 class="text-2xl md:text-3xl font-bold text-primary-900 mb-3">
+                <h3
+                  class="text-2xl md:text-3xl font-bold text-primary-900 mb-3"
+                >
                   IT Community Meetup
                 </h3>
-                <p class="text-primary-600 text-sm">Центр управления регионом • 150+ участников</p>
+                <p class="text-primary-600 text-sm">
+                  Центр управления регионом • 150+ участников
+                </p>
               </div>
               <p class="text-primary-700 leading-relaxed mb-6">
-                Регулярное ведение митапов регионального IT-сообщества. Модерация докладов,
-                технические дискуссии, нетворкинг-сессии. Создание комфортной
-                атмосферы для обмена опытом между разработчиками разных уровней.
+                Регулярное ведение митапов регионального IT-сообщества.
+                Модерация докладов, технические дискуссии, нетворкинг-сессии.
+                Создание комфортной атмосферы для обмена опытом между
+                разработчиками разных уровней.
               </p>
               <div class="flex flex-wrap gap-2">
                 <span
