@@ -27,7 +27,7 @@
                 class="text-primary-300 hover:text-white transition-colors text-sm"
                 @click.prevent="scrollTo('#services')"
               >
-                Форматы мероприятий
+                Форматы
               </a>
               <a
                 href="#cases"
