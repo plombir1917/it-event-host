@@ -91,11 +91,6 @@
             style="animation-delay: 0.3s"
           >
             <div class="relative aspect-[3/4] lg:aspect-[4/5] overflow-hidden">
-              <!-- Градиентный оверлей -->
-              <div
-                class="absolute inset-0 bg-gradient-to-t from-primary-900/20 via-transparent to-transparent z-10"
-              ></div>
-
               <!-- Шум текстура -->
               <div
                 class="absolute inset-0 opacity-[0.03] z-10"
@@ -103,7 +98,7 @@
               ></div>
 
               <NuxtImg
-                src="/images/hero/portrait.jpg"
+                src="/images/hero/portrait-no-bg.png"
                 alt="Ведущий-программист на сцене"
                 class="w-full h-full object-cover transition-all duration-1000"
                 loading="eager"
