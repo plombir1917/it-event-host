@@ -103,7 +103,7 @@
             <div class="flex items-center gap-4">
               <div class="flex-shrink-0">
                 <NuxtImg
-                  src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=100&h=100&fit=crop&q=80&auto=format"
+                  src="/images/reviews/.jpg"
                   alt="Иван Козлов"
                   class="w-12 h-12 rounded-full object-cover grayscale"
                   loading="lazy"
@@ -137,7 +137,7 @@
             <div class="flex items-center gap-4">
               <div class="flex-shrink-0">
                 <NuxtImg
-                  src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=100&h=100&fit=crop&q=80&auto=format"
+                  src="/images/reviews/.jpg"
                   alt="Мария Волкова"
                   class="w-12 h-12 rounded-full object-cover grayscale opacity-80"
                   loading="lazy"
@@ -170,7 +170,7 @@
             <div class="flex items-center gap-4">
               <div class="flex-shrink-0">
                 <NuxtImg
-                  src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=100&h=100&fit=crop&q=80&auto=format"
+                  src="/images/reviews/.jpg"
                   alt="Сергей Новиков"
                   class="w-12 h-12 rounded-full object-cover grayscale"
                   loading="lazy"
@@ -201,7 +201,7 @@
             <div class="flex items-center gap-4">
               <div class="flex-shrink-0">
                 <NuxtImg
-                  src="https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=100&h=100&fit=crop&q=80&auto=format"
+                  src="/images/reviews/.jpg"
                   alt="Елена Соколова"
                   class="w-12 h-12 rounded-full object-cover grayscale"
                   loading="lazy"
