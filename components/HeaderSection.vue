@@ -21,7 +21,7 @@
             class="text-primary-700 hover:text-primary-900 font-medium transition-colors"
             @click.prevent="scrollTo('#about')"
           >
-            О ведущем
+            Обо мне
           </a>
           <a
             href="#services"
