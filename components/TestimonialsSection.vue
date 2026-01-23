@@ -39,7 +39,7 @@
                 <NuxtImg
                   src="/images/reviews/first.jpg"
                   alt="Арсений Болдырев"
-                  class="w-12 h-12 rounded-full object-cover grayscale"
+                  class="w-12 h-12 rounded-full object-cover"
                   loading="lazy"
                   format="webp"
                   quality="85"
@@ -49,7 +49,7 @@
               <div>
                 <div class="font-bold text-primary-900">Арсений Болдырев</div>
                 <div class="text-sm text-primary-600">
-                  директор АНО <br />"Область будущего"
+                  Директор АНО <br />"Область будущего"
                 </div>
               </div>
             </div>
@@ -62,17 +62,16 @@
                 <span class="text-primary-900 text-xl">★★★★★</span>
               </div>
               <p class="text-primary-700 leading-relaxed italic mb-6">
-                "Профессионализм на высшем уровне. Пунктуальность, подготовка,
-                внимание к деталям. Он не просто ведущий — он часть команды.
-                Спасибо за отличную работу на нашем хакатоне!"
+                "Регулярно ведет и модерирует мероприятия, связанные со спортивным программированием, киберспортом и цифровыми технологиями.
+                Его отличает способность компетентно вести профессиональную дискуссию, оперируя подходящей терминологией."
               </p>
             </div>
             <div class="flex items-center gap-4">
               <div class="flex-shrink-0">
                 <NuxtImg
-                  src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=100&h=100&fit=crop&q=80&auto=format"
-                  alt="Дмитрий Смирнов"
-                  class="w-12 h-12 rounded-full object-cover grayscale"
+                  src="/images/reviews/second.jpg"
+                  alt="Данил Сапронов"
+                  class="w-12 h-12 rounded-full object-cover"
                   loading="lazy"
                   format="webp"
                   quality="85"
@@ -80,9 +79,9 @@
                 />
               </div>
               <div>
-                <div class="font-bold text-primary-900">Дмитрий Смирнов</div>
+                <div class="font-bold text-primary-900">Данил Сапронов</div>
                 <div class="text-sm text-primary-600">
-                  CEO, TechEvents Agency
+Директор ГОБПОУ <br> «Колледж искусственного интеллекта в машиностроительной отрасли»
                 </div>
               </div>
             </div>
