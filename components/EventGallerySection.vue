@@ -230,19 +230,9 @@ const currentImage = computed(() => {
   return validImages.value[currentImageIndex.value] || null
 })
 
-const getImageClass = (index: number) => {
-  // Создаем визуальный ритм: некоторые изображения больше
-  const patterns = [
-    'md:col-span-1 md:row-span-1',
-    'md:col-span-1 md:row-span-1',
-    'md:col-span-1 md:row-span-2',
-    'md:col-span-1 md:row-span-1',
-    'md:col-span-1 md:row-span-1',
-    'md:col-span-1 md:row-span-2',
-    'md:col-span-1 md:row-span-1',
-    'md:col-span-1 md:row-span-1'
-  ]
-  return patterns[index % patterns.length] || ''
+const getImageClass = (_index: number) => {
+  // Равномерная сетка без разрывов: все элементы одинакового размера
+  return 'md:col-span-1 md:row-span-1'
 }
 
 const openGallery = (index: number) => {
