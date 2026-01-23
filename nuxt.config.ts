@@ -14,10 +14,6 @@ export default defineNuxtConfig({
       xl: 1280,
       xxl: 1536
     },
-    domains: ['images.unsplash.com'],
-    alias: {
-      unsplash: 'https://images.unsplash.com'
-    }
   },
   app: {
     head: {
