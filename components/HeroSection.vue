@@ -76,11 +76,7 @@
               </div>
               <div class="flex items-center gap-2">
                 <span class="w-2 h-2 bg-primary-900 rounded-full"></span>
-                <span>Корпоративные события</span>
-              </div>
-              <div class="flex items-center gap-2">
-                <span class="w-2 h-2 bg-primary-900 rounded-full"></span>
-                <span>Онлайн & Офлайн</span>
+                <span>Деловые события</span>
               </div>
             </div>
           </div>
