@@ -59,11 +59,10 @@
                 Дополнительное образование
               </h3>
               <p class="text-base md:text-lg text-primary-700 leading-relaxed mb-2">
-                Повышение квалификации в Яндекс
+                Повышение квалификации
               </p>
               <p class="text-base md:text-lg text-primary-700 leading-relaxed">
-                Удостоверение о повышении квалификации по программе «Бэкенд на
-                Node.js для фронтенд-разработчиков»
+                Удостоверения о повышении квалификации в <br>АНО ДПО "ОБРАЗОВАТЕЛЬНЫЕ ТЕХНОЛОГИИ ЯНДЕКСА"
               </p>
             </div>
 
@@ -183,7 +182,7 @@
                     v-if="cert"
                     :src="cert"
                     :alt="`Сертификат Яндекс ${index + 1}`"
-                    class="w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-500"
+                    class="w-full h-full object-cover transition-all duration-500"
                     loading="lazy"
                     format="webp"
                     quality="85"
@@ -383,9 +382,8 @@ const documents = ref({
   diplomaBachelor: '', // '/documents/diploma-bachelor.jpg'
   diplomaMaster: '', // '/documents/diploma-master.jpg'
   certificates: [
-    '', ''
-    // '/documents/certificate-yandex-1.jpg',
-    // '/documents/certificate-yandex-2.jpg',
+    '/documents/node-yandex-1.jpg',
+    '/documents/node-yandex-2.jpg',
     // '/documents/certificate-yandex-3.jpg'
   ] as string[],
   resume: '' // '/documents/resume.pdf'
