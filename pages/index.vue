@@ -6,6 +6,7 @@
     <EducationSection />
     <VideoSection />
     <ServicesSection />
+    <EventGallerySection />
     <WhyMeSection />
     <CasesSection />
     <TestimonialsSection />
