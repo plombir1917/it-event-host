@@ -26,9 +26,9 @@
               ></div>
 
               <NuxtImg
-                src="https://images.unsplash.com/photo-1540575467063-178a50c2df87?w=800&h=1000&fit=crop&q=80&auto=format"
-                alt="Ведущий на сцене, взаимодействие с аудиторией"
-                class="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-1000"
+                src="/images/about/about.jpg"
+                alt="Обо мне"
+                class="w-full h-full object-cover transition-all duration-1000"
                 loading="lazy"
                 format="webp"
                 quality="90"
@@ -43,11 +43,11 @@
             <p
               class="text-lg md:text-xl text-primary-700 leading-relaxed font-light"
             >
-              Я не просто ведущий, который читает сценарий. Я программист с
+              Не просто ведущий. Программист с
               <strong class="font-semibold text-primary-900"
                 >5+ годами опыта</strong
               >
-              в разработке, который понимает ваш продукт изнутри.
+              в разработке, который понимает значительно больше других.
             </p>
 
             <p class="text-lg md:text-xl text-primary-700 leading-relaxed">
