@@ -10,7 +10,7 @@
             Почему я
           </h2>
           <p class="text-xl md:text-2xl text-primary-600 font-light max-w-2xl mx-auto">
-            Уникальное сочетание технической экспертизы и сценического опыта
+            Уникальное сочетание, казалось бы, невозможного.
           </p>
           <div class="w-24 h-1 bg-primary-900 mx-auto mt-6"></div>
         </div>
