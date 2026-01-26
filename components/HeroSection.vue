@@ -24,10 +24,7 @@
             <h1
               class="text-5xl md:text-6xl lg:text-7xl xl:text-8xl font-black text-primary-900 mb-6 leading-tight tracking-tight animate-fade-in-up"
             >
-              Ведущий, который
-              <span class="block mt-2 bg-gradient-to-r from-primary-900 to-primary-600 bg-clip-text text-transparent">
-                понимает код
-              </span>
+              Ведущий программист
             </h1>
 
             <!-- Подзаголовок -->
@@ -35,8 +32,7 @@
               class="text-xl md:text-2xl lg:text-3xl text-primary-600 font-light mb-12 max-w-2xl mx-auto lg:mx-0 leading-relaxed animate-fade-in-up"
               style="animation-delay: 0.2s"
             >
-              Программист на сцене. Техническая экспертиза встречается с
-              харизмой ведущего. Ваши мероприятия заслуживают большего.
+              Айтишник на сцене. <br>Опытный специалист на стыке технической экспертизы и событийного бизнеса.
             </p>
 
             <!-- CTA кнопки -->
@@ -89,7 +85,6 @@
             <div class="relative aspect-[3/4] lg:aspect-[4/5] overflow-hidden">
               <!-- Шум текстура -->
               <div
-                class="absolute inset-0 opacity-[0.03] z-10"
                 style="background-image: url('data:image/svg+xml,%3Csvg viewBox=\'0 0 400 400\' xmlns=\'http://www.w3.org/2000/svg\'%3E%3Cfilter id=\'noiseFilter\'%3E%3CfeTurbulence type=\'fractalNoise\' baseFrequency=\'4\' numOctaves=\'3\' stitchTiles=\'stitch\'/%3E%3C/filter%3E%3Crect width=\'100%25\' height=\'100%25\' filter=\'url(%23noiseFilter)\'/%3E%3C/svg%3E');"
               ></div>
 

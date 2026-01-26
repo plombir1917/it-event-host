@@ -5,7 +5,7 @@
     <AboutSection />
     <EducationSection />
     <VideoSection />
-    <ServicesSection />
+    <!-- <ServicesSection /> -->
     <EventGallerySection />
     <WhyMeSection />
     <CasesSection />
