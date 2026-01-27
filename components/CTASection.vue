@@ -26,7 +26,7 @@
             Готовы обсудить проект?
           </h2>
           <p class="text-xl md:text-2xl text-primary-200 font-light max-w-2xl mx-auto">
-            Давайте создадим незабываемое IT-мероприятие вместе
+            Давайте создадим незабываемое мероприятие вместе
           </p>
           <div class="w-24 h-1 bg-white mx-auto mt-6"></div>
         </div>

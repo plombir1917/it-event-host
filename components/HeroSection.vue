@@ -1,5 +1,5 @@
 <template>
-  <section class="relative w-full min-h-screen overflow-hidden">
+  <section class="relative w-full hero-screen overflow-hidden">
     <!-- Декоративные элементы -->
     <div
       class="absolute inset-0 opacity-5 pointer-events-none"
@@ -14,11 +14,16 @@
     </div>
 
     <!-- FULLSCREEN 50/50 split -->
-    <div class="relative z-10 grid min-h-screen grid-cols-1 lg:grid-cols-2">
+    <div class="relative z-10 grid min-h-full grid-cols-1 lg:grid-cols-2">
       <!-- Левая колонка (чёрный фон + текст) -->
-      <div class="bg-black text-white flex items-center">
+      <div
+        class="relative bg-black text-white flex items-center bg-cover bg-center"
+        style="background-image: url('/images/hero/left-bg.jpg')"
+      >
+        <!-- Тёмный оверлей поверх фонового изображения -->
+        <div class="absolute inset-0 bg-black/70"></div>
         <div
-          class="w-full text-center lg:text-left px-6 lg:px-12 py-16 lg:py-20 max-w-xl mx-auto lg:ml-auto"
+          class="relative z-10 w-full text-center lg:text-left px-6 lg:px-12 py-16 lg:py-20 max-w-xl mx-auto lg:ml-auto"
         >
               <!-- Текстовый блок -->
               <!-- Заголовок -->
