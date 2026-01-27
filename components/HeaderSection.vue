@@ -18,20 +18,37 @@
           Захар Копич
         </NuxtLink>
 
-        <!-- Desktop nav -->
+        <!-- Desktop navigation -->
         <div class="hidden md:flex items-center gap-8">
-          <NuxtLink to="/" class="font-medium" :class="linkClass('/')">
+          <NuxtLink
+            to="/"
+            class="font-medium transition-all"
+            :style="navLinkStyle('/')"
+          >
             Главная
           </NuxtLink>
-          <NuxtLink to="/about" class="font-medium" :class="linkClass('/about')">
+
+          <NuxtLink
+            to="/about"
+            class="font-medium transition-all"
+            :style="navLinkStyle('/about')"
+          >
             Обо мне
           </NuxtLink>
-          <NuxtLink to="/cases" class="font-medium" :class="linkClass('/cases')">
+
+          <NuxtLink
+            to="/cases"
+            class="font-medium transition-all"
+            :style="navLinkStyle('/cases')"
+          >
             Кейсы
           </NuxtLink>
+
+          <!-- CTA -->
           <a
             href="#"
-            class="px-6 py-2 bg-white text-black font-semibold hover:bg-primary-100 transition-colors"
+            class="px-6 py-2 font-semibold transition-colors"
+            :style="ctaStyle"
             @click.prevent="handleContactClick"
           >
             Связаться
@@ -44,12 +61,18 @@
           @click="toggleMobileMenu"
           aria-label="Toggle menu"
         >
-          <span class="block w-6 h-0.5 bg-current transition-all"
-            :class="mobileMenuOpen ? 'rotate-45 translate-y-2' : ''" />
-          <span class="block w-6 h-0.5 bg-current transition-all"
-            :class="mobileMenuOpen ? 'opacity-0' : ''" />
-          <span class="block w-6 h-0.5 bg-current transition-all"
-            :class="mobileMenuOpen ? '-rotate-45 -translate-y-2' : ''" />
+          <span
+            class="block w-6 h-0.5 bg-current transition-all"
+            :class="mobileMenuOpen ? 'rotate-45 translate-y-2' : ''"
+          />
+          <span
+            class="block w-6 h-0.5 bg-current transition-all"
+            :class="mobileMenuOpen ? 'opacity-0' : ''"
+          />
+          <span
+            class="block w-6 h-0.5 bg-current transition-all"
+            :class="mobileMenuOpen ? '-rotate-45 -translate-y-2' : ''"
+          />
         </button>
       </div>
 
@@ -59,16 +82,25 @@
         class="md:hidden pb-6 pt-4 border-t border-white/10 bg-black animate-fade-in"
       >
         <div class="flex flex-col gap-5">
-          <NuxtLink to="/" class="text-white/80 hover:text-white"
-            @click="closeMobileMenuAndGoHome">
+          <NuxtLink
+            to="/"
+            class="text-white/80 hover:text-white"
+            @click="closeMobileMenuAndGoHome"
+          >
             Главная
           </NuxtLink>
-          <NuxtLink to="/about" class="text-white/80 hover:text-white"
-            @click="closeMobileMenu">
+          <NuxtLink
+            to="/about"
+            class="text-white/80 hover:text-white"
+            @click="closeMobileMenu"
+          >
             Обо мне
           </NuxtLink>
-          <NuxtLink to="/cases" class="text-white/80 hover:text-white"
-            @click="closeMobileMenu">
+          <NuxtLink
+            to="/cases"
+            class="text-white/80 hover:text-white"
+            @click="closeMobileMenu"
+          >
             Кейсы
           </NuxtLink>
           <a
@@ -95,7 +127,7 @@ const mobileMenuOpen = ref(false)
 const isMobile = ref(false)
 const isReady = ref(false)
 
-// 👇 КЛЮЧЕВОЕ: стартовое состояние для desktop
+// стартовое состояние для desktop
 const headerFill = ref(isHome.value ? 0.5 : 1)
 
 let heroScrollEnd = 1
@@ -129,7 +161,6 @@ onMounted(() => {
   updateIsMobile()
   computeHeroScrollEnd()
   handleScroll()
-
   isReady.value = true
 
   window.addEventListener('resize', () => {
@@ -137,7 +168,6 @@ onMounted(() => {
     computeHeroScrollEnd()
     handleScroll()
   })
-
   window.addEventListener('scroll', handleScroll)
 })
 
@@ -146,6 +176,8 @@ onUnmounted(() => {
 })
 
 watch(() => route.path, handleScroll)
+
+/* ===== СТИЛИ ===== */
 
 const headerBackgroundStyle = computed(() => {
   if (isMobile.value || !isHome.value) {
@@ -164,12 +196,52 @@ const headerBackgroundStyle = computed(() => {
   }
 })
 
+/* 🎯 NAV + active underline */
+const navLinkStyle = (path: string) => {
+  const isActive = route.path === path
+
+  // базовый цвет (везде)
+  let color = '#ffffff'
+
+  // динамический цвет ТОЛЬКО на главной и desktop
+  if (!isMobile.value && isHome.value) {
+    const t = Math.min(1, Math.max(0, (headerFill.value - 0.5) / 0.5))
+    const v = Math.round(255 * t)
+    color = `rgb(${v}, ${v}, ${v})`
+  }
+
+  return {
+    color,
+    fontWeight: isActive ? '600' : '500',
+    boxShadow: isActive
+      ? `inset 0 -2px 0 0 ${color}`
+      : 'inset 0 -2px 0 0 transparent',
+    transition: 'color 0.3s, box-shadow 0.3s'
+  }
+}
+
+/* 🎯 CTA кнопка */
+const ctaStyle = computed(() => {
+  if (isMobile.value || !isHome.value) {
+    return { backgroundColor: '#fff', color: '#000' }
+  }
+
+  const t = Math.min(1, Math.max(0, (headerFill.value - 0.5) / 0.5))
+  const v = Math.round(255 * t)
+  const bg = `rgb(${v}, ${v}, ${v})`
+  const text = v > 128 ? '#000' : '#fff'
+
+  return {
+    backgroundColor: bg,
+    color: text
+  }
+})
+
+/* ===== ACTIONS ===== */
+
 const toggleMobileMenu = () => (mobileMenuOpen.value = !mobileMenuOpen.value)
 const closeMobileMenu = () => (mobileMenuOpen.value = false)
 const closeMobileMenuAndGoHome = closeMobileMenu
-
-const linkClass = (path: string) =>
-  route.path === path ? 'text-white' : 'text-white/70 hover:text-white'
 
 const handleLogoClick = async () => {
   if (route.path !== '/') await navigateTo('/')
