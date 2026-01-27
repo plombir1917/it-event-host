@@ -15,34 +15,27 @@
           <div>
             <h3 class="text-xl font-bold mb-4">Навигация</h3>
             <nav class="flex flex-col gap-3">
-              <a
-                href="#about"
-                class="text-primary-300 hover:text-white transition-colors text-sm"
-                @click.prevent="scrollTo('#about')"
-              >
-                Обо мне
-              </a>
-              <a
-                href="#services"
-                class="text-primary-300 hover:text-white transition-colors text-sm"
-                @click.prevent="scrollTo('#services')"
-              >
-                Форматы
-              </a>
-              <a
-                href="#cases"
-                class="text-primary-300 hover:text-white transition-colors text-sm"
-                @click.prevent="scrollTo('#cases')"
-              >
-                Кейсы
-              </a>
-              <a
-                href="#contact"
-                class="text-primary-300 hover:text-white transition-colors text-sm"
-                @click.prevent="scrollTo('#contact')"
-              >
-                Связаться
-              </a>
+              <NuxtLink
+            to="/"
+            class="text-primary-300 hover:text-white transition-colors text-sm"
+            @click.prevent="handleLogoClick"
+          >
+            Главная
+          </NuxtLink>
+          <NuxtLink
+            to="/about"
+            class="text-primary-300 hover:text-white transition-colors text-sm"
+            :class="linkClass('/about')"
+          >
+            Обо мне
+          </NuxtLink>
+          <NuxtLink
+            to="/cases"
+            class="text-primary-300 hover:text-white transition-colors text-sm"
+            :class="linkClass('/cases')"
+          >
+            Кейсы
+          </NuxtLink>
             </nav>
           </div>
 
@@ -106,11 +99,20 @@
 
 <script setup lang="ts">
 const currentYear = new Date().getFullYear()
+const route = useRoute()
 
-const scrollTo = (selector: string) => {
-  const element = document.querySelector(selector)
-  if (element) {
-    element.scrollIntoView({ behavior: 'smooth', block: 'start' })
+const linkClass = (path: string) => {
+  return route.path === path
+}
+
+
+const handleLogoClick = async () => {
+  if (!process.client) return
+
+  if (route.path !== '/') {
+    await navigateTo('/')
   }
+
+  window.scrollTo({ top: 0, behavior: 'smooth' })
 }
 </script>

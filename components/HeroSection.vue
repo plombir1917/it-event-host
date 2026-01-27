@@ -136,7 +136,7 @@
 
     <!-- Desktop: два маркера для каждой половины -->
     <div
-      class="absolute bottom-6 inset-x-0 hidden lg:flex justify-between px-[25%] animate-bounce"
+      class="absolute bottom-6 inset-x-0 z-10 lg:flex justify-center px-[25%] animate-bounce"
     >
       <!-- Левый (на чёрном фоне) -->
       <svg

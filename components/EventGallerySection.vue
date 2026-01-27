@@ -1,21 +1,21 @@
 <template>
   <section
     id="services"
-    class="section-y bg-primary-50 relative overflow-hidden"
+    class="section-y bg-primary-900 relative overflow-hidden"
   >
     <div class="container mx-auto px-6 lg:px-8">
       <div class="max-w-7xl mx-auto">
         <!-- Заголовок секции -->
         <div class="text-center mb-12 md:mb-16">
           <h2
-            class="text-4xl md:text-5xl lg:text-6xl font-black text-primary-900 mb-4"
+            class="text-4xl md:text-5xl lg:text-6xl font-black text-white mb-4"
           >
             Разные форматы, один уровень
           </h2>
-          <p class="text-xl md:text-2xl text-primary-600 font-light max-w-2xl mx-auto">
+          <p class="text-xl md:text-2xl text-primary-200 font-light max-w-2xl mx-auto">
             Не только IT. Бэкграунд как фишка на традиционных событиях.
           </p>
-          <div class="w-24 h-1 bg-primary-900 mx-auto mt-6"></div>
+          <div class="w-24 h-1 bg-white mx-auto mt-6"></div>
         </div>
 
         <!-- Галерея -->
