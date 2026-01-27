@@ -1,8 +1,8 @@
 <template>
   <div>
     <AboutSection />
-    <EducationSection />
     <VideoSection />
+    <EducationSection />
   </div>
 </template>
 
