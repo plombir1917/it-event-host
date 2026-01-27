@@ -86,7 +86,7 @@
             class="text-white/80 hover:text-white font-medium transition-colors py-1"
             @click="closeMobileMenu"
           >
-            О ведущем
+            Обо мне
           </NuxtLink>
           <NuxtLink
             to="/cases"
