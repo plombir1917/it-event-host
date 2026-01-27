@@ -1,7 +1,7 @@
 <template>
   <section
     id="services"
-    class="py-24 md:py-32 lg:py-40 bg-white relative overflow-hidden"
+    class="section-y bg-primary-50 relative overflow-hidden"
   >
     <div class="container mx-auto px-6 lg:px-8">
       <div class="max-w-7xl mx-auto">

@@ -1,7 +1,7 @@
 <template>
   <section
     id="contact"
-    class="py-24 md:py-32 lg:py-40 bg-primary-900 text-white relative overflow-hidden"
+    class="section-y bg-primary-900 text-white relative overflow-hidden"
   >
     <!-- Декоративные элементы -->
     <div

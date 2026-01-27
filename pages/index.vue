@@ -1,17 +1,10 @@
 <template>
-  <div class="min-h-screen">
-    <HeaderSection />
+  <div>
     <HeroSection />
     <AboutSection />
-    <EducationSection />
-    <VideoSection />
-    <!-- <ServicesSection /> -->
     <EventGallerySection />
-    <WhyMeSection />
-    <CasesSection />
-    <TestimonialsSection />
-    <CTASection />
-    <FooterSection />
+    <WhyMeSection/>
+    <CTASection/>
   </div>
 </template>
 

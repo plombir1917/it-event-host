@@ -6,41 +6,41 @@
     <nav class="container mx-auto px-6 lg:px-8">
       <div class="flex items-center justify-between h-20">
         <!-- Логотип / Название -->
-        <a
-          href="#"
+        <NuxtLink
+          to="/"
           class="text-2xl font-black text-primary-900 hover:text-primary-700 transition-colors"
-          @click.prevent="scrollToTop"
+          @click.prevent="handleLogoClick"
         >
           Захар Копич
-        </a>
+        </NuxtLink>
 
         <!-- Навигационные ссылки (Desktop) -->
         <div class="hidden md:flex items-center gap-8">
-          <a
-            href="#about"
-            class="text-primary-700 hover:text-primary-900 font-medium transition-colors"
-            @click.prevent="scrollTo('#about')"
+          <NuxtLink
+            to="/"
+            class="font-medium transition-colors"
+            :class="linkClass('/')"
+          >
+            Главная
+          </NuxtLink>
+          <NuxtLink
+            to="/about"
+            class="font-medium transition-colors"
+            :class="linkClass('/about')"
           >
             Обо мне
-          </a>
-          <a
-            href="#services"
-            class="text-primary-700 hover:text-primary-900 font-medium transition-colors"
-            @click.prevent="scrollTo('#services')"
-          >
-            Форматы
-          </a>
-          <a
-            href="#cases"
-            class="text-primary-700 hover:text-primary-900 font-medium transition-colors"
-            @click.prevent="scrollTo('#cases')"
+          </NuxtLink>
+          <NuxtLink
+            to="/cases"
+            class="font-medium transition-colors"
+            :class="linkClass('/cases')"
           >
             Кейсы
-          </a>
+          </NuxtLink>
           <a
-            href="#contact"
+            href="#"
             class="px-6 py-2 bg-primary-900 text-white font-semibold hover:bg-primary-800 transition-colors"
-            @click.prevent="scrollTo('#contact')"
+            @click.prevent="handleContactClick"
           >
             Связаться
           </a>
@@ -73,31 +73,31 @@
         class="md:hidden pb-6 pt-4 border-t border-primary-200 animate-fade-in"
       >
         <div class="flex flex-col gap-4">
-          <a
-            href="#about"
+          <NuxtLink
+            to="/"
             class="text-primary-700 hover:text-primary-900 font-medium transition-colors py-2"
-            @click.prevent="scrollTo('#about')"
+            @click="closeMobileMenuAndGoHome"
+          >
+            Главная
+          </NuxtLink>
+          <NuxtLink
+            to="/about"
+            class="text-primary-700 hover:text-primary-900 font-medium transition-colors py-2"
+            @click="closeMobileMenu"
           >
             О ведущем
-          </a>
-          <a
-            href="#services"
+          </NuxtLink>
+          <NuxtLink
+            to="/cases"
             class="text-primary-700 hover:text-primary-900 font-medium transition-colors py-2"
-            @click.prevent="scrollTo('#services')"
-          >
-            Форматы
-          </a>
-          <a
-            href="#cases"
-            class="text-primary-700 hover:text-primary-900 font-medium transition-colors py-2"
-            @click.prevent="scrollTo('#cases')"
+            @click="closeMobileMenu"
           >
             Кейсы
-          </a>
+          </NuxtLink>
           <a
-            href="#contact"
+            href="#"
             class="px-6 py-2 bg-primary-900 text-white font-semibold hover:bg-primary-800 transition-colors text-center"
-            @click.prevent="scrollTo('#contact')"
+            @click.prevent="handleContactClick"
           >
             Связаться
           </a>
@@ -109,38 +109,71 @@
 
 <script setup lang="ts">
 import { ref, onMounted, onUnmounted } from 'vue'
+const route = useRoute()
 
 const isScrolled = ref(false)
 const mobileMenuOpen = ref(false)
 
 const handleScroll = () => {
+  if (!process.client) return
   isScrolled.value = window.scrollY > 20
-}
-
-const scrollTo = (selector: string) => {
-  const element = document.querySelector(selector)
-  if (element) {
-    element.scrollIntoView({ behavior: 'smooth', block: 'start' })
-    mobileMenuOpen.value = false
-  }
-}
-
-const scrollToTop = () => {
-  window.scrollTo({ top: 0, behavior: 'smooth' })
-  mobileMenuOpen.value = false
 }
 
 const toggleMobileMenu = () => {
   mobileMenuOpen.value = !mobileMenuOpen.value
 }
 
+const closeMobileMenu = () => {
+  mobileMenuOpen.value = false
+}
+
+const closeMobileMenuAndGoHome = () => {
+  mobileMenuOpen.value = false
+}
+
+const linkClass = (path: string) => {
+  const isActive = route.path === path
+  return isActive
+    ? 'text-primary-900'
+    : 'text-primary-700 hover:text-primary-900'
+}
+
 onMounted(() => {
-  window.addEventListener('scroll', handleScroll)
+  if (process.client) {
+    window.addEventListener('scroll', handleScroll)
+  }
 })
 
 onUnmounted(() => {
-  window.removeEventListener('scroll', handleScroll)
+  if (process.client) {
+    window.removeEventListener('scroll', handleScroll)
+  }
 })
+
+const handleLogoClick = async () => {
+  if (!process.client) return
+
+  if (route.path !== '/') {
+    await navigateTo('/')
+  }
+
+  window.scrollTo({ top: 0, behavior: 'smooth' })
+  closeMobileMenu()
+}
+
+const handleContactClick = async () => {
+  if (!process.client) return
+
+  if (route.path !== '/') {
+    await navigateTo('/#contact')
+  } else {
+    const el = document.querySelector('#contact')
+    if (el) {
+      el.scrollIntoView({ behavior: 'smooth', block: 'start' })
+    }
+  }
+  closeMobileMenu()
+}
 </script>
 
 <style scoped>

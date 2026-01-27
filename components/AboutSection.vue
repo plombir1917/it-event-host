@@ -1,12 +1,12 @@
 <template>
   <section
     id="about"
-    class="py-24 md:py-32 lg:py-40 bg-white relative overflow-hidden"
+    class="section-y bg-primary-50 relative overflow-hidden"
   >
     <div class="container mx-auto px-6 lg:px-8">
       <div class="max-w-6xl mx-auto">
         <!-- Заголовок секции -->
-        <div class="text-center mb-16 md:mb-20">
+        <div class="text-center section-heading">
           <h2
             class="text-4xl md:text-5xl lg:text-6xl font-black text-primary-900 mb-6"
           >
@@ -111,7 +111,7 @@
                   <div
                     class="text-5xl md:text-6xl lg:text-7xl font-black mb-2"
                   >
-                    50+
+                    <AnimatedCounter :end-value="50" suffix="+" />
                   </div>
                   <div class="text-lg md:text-xl text-primary-200">
                     Проведенных мероприятий
@@ -122,7 +122,7 @@
                   <div
                     class="text-5xl md:text-6xl lg:text-7xl font-black mb-2"
                   >
-                    5+
+                    <AnimatedCounter :end-value="5" suffix="+" />
                   </div>
                   <div class="text-lg md:text-xl text-primary-200">
                     Лет в программировании
@@ -133,7 +133,7 @@
                   <div
                     class="text-5xl md:text-6xl lg:text-7xl font-black mb-2"
                   >
-                    100%
+                    <AnimatedCounter :end-value="100" suffix="%" />
                   </div>
                   <div class="text-lg md:text-xl text-primary-200">
                     Компетенции
