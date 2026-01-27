@@ -71,11 +71,15 @@
             </div>
             <div class="flex items-center gap-2">
               <span class="w-2 h-2 bg-white/70 rounded-full"></span>
-              <span>Хакатоны</span>
+              <span>Форумы</span>
             </div>
             <div class="flex items-center gap-2">
               <span class="w-2 h-2 bg-white/70 rounded-full"></span>
               <span>Деловые события</span>
+            </div>
+            <div class="flex items-center gap-2">
+              <span class="w-2 h-2 bg-white/70 rounded-full"></span>
+              <span>Корпоративные мероприятия</span>
             </div>
           </div>
         </div>

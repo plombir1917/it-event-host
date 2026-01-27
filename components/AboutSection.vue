@@ -62,17 +62,6 @@
                   ✓
                 </span>
                 <span class="text-base md:text-lg text-primary-700"
-                  >Глубоко понимать технические доклады и задавать правильные
-                  вопросы</span
-                >
-              </li>
-              <li class="flex items-start gap-4">
-                <span
-                  class="flex-shrink-0 w-6 h-6 bg-primary-900 text-white rounded-full flex items-center justify-center text-sm font-bold mt-1"
-                >
-                  ✓
-                </span>
-                <span class="text-base md:text-lg text-primary-700"
                   >Создавать атмосферу, где участники чувствуют себя
                   понятыми</span
                 >
@@ -85,7 +74,7 @@
                 </span>
                 <span class="text-base md:text-lg text-primary-700"
                   >Адаптировать контент под аудиторию — от гуманитариев до
-                  архитекторов</span
+                  технических специалистов</span
                 >
               </li>
               <li class="flex items-start gap-4">
@@ -95,7 +84,18 @@
                   ✓
                 </span>
                 <span class="text-base md:text-lg text-primary-700"
-                  >Управлять техническими дискуссиями и панелями экспертов</span
+                  >Управлять дискуссиями и панелями экспертов</span
+                >
+              </li>
+               <li class="flex items-start gap-4">
+                <span
+                  class="flex-shrink-0 w-6 h-6 bg-primary-900 text-white rounded-full flex items-center justify-center text-sm font-bold mt-1"
+                >
+                  ✓
+                </span>
+                <span class="text-base md:text-lg text-primary-700"
+                  >Глубоко понимать сложные доклады и задавать правильные
+                  вопросы</span
                 >
               </li>
             </ul>
