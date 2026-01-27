@@ -1,44 +1,44 @@
 <template>
   <section
-    class="section-y bg-primary-50 relative overflow-hidden"
+    class="section-y bg-primary-900 relative overflow-hidden"
   >
     <div class="container mx-auto px-6 lg:px-8">
       <div class="max-w-6xl mx-auto">
         <!-- Заголовок секции -->
         <div class="text-center mb-16 md:mb-20">
           <h2
-            class="text-4xl md:text-5xl lg:text-6xl font-black text-primary-900 mb-6"
+            class="text-4xl md:text-5xl lg:text-6xl font-black text-white mb-6"
           >
             Форматы мероприятий
           </h2>
-          <p class="text-xl md:text-2xl text-primary-600 font-light max-w-2xl mx-auto">
+          <p class="text-xl md:text-2xl text-primary-200  font-light max-w-2xl mx-auto">
             От конференций до корпоративных событий
           </p>
-          <div class="w-24 h-1 bg-primary-900 mx-auto mt-6"></div>
+          <div class="w-24 h-1 bg-white mx-auto mt-6"></div>
         </div>
 
         <!-- Сетка услуг -->
         <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6 lg:gap-8">
           <!-- Конференции -->
           <div
-            class="bg-white border-2 border-primary-200 p-8 hover:border-primary-900 transition-all duration-300 group"
+            class="bg-black text-white border-2 border-primary-900 p-8 hover:border-primary-200 transition-all duration-300 group"
           >
             <div class="mb-6">
               <div
-                class="w-16 h-16 bg-primary-900 text-white flex items-center justify-center text-3xl font-black mb-4 group-hover:scale-110 transition-transform duration-300"
+                class="w-16 h-16 bg-white text-black flex items-center justify-center text-3xl font-black mb-4 group-hover:scale-110 transition-transform duration-300"
               >
                 01
               </div>
-              <h3 class="text-2xl md:text-3xl font-bold text-primary-900 mb-3">
+              <h3 class="text-2xl md:text-3xl font-bold mb-3">
                 Конференции
               </h3>
             </div>
-            <p class="text-primary-700 leading-relaxed mb-6">
+            <p class="text-primary-200 leading-relaxed mb-6">
               Многотрековые IT-конференции, технические саммиты, отраслевые
               форумы. Полный цикл: от открытия до закрытия, модерация сессий,
               интервью со спикерами.
             </p>
-            <ul class="space-y-2 text-sm text-primary-600">
+            <ul class="space-y-2 text-sm text-primary-300">
               <li>• Модерация технических сессий</li>
               <li>• Интервью со спикерами</li>
               <li>• Управление Q&A</li>
@@ -48,24 +48,24 @@
 
           <!-- Хакатоны -->
           <div
-            class="bg-white border-2 border-primary-200 p-8 hover:border-primary-900 transition-all duration-300 group"
+            class="bg-black text-white border-2 border-primary-900 p-8 hover:border-primary-200 transition-all duration-300 group"
           >
             <div class="mb-6">
               <div
-                class="w-16 h-16 bg-primary-900 text-white flex items-center justify-center text-3xl font-black mb-4 group-hover:scale-110 transition-transform duration-300"
+                class="w-16 h-16 bg-white text-black flex items-center justify-center text-3xl font-black mb-4 group-hover:scale-110 transition-transform duration-300"
               >
                 02
               </div>
-              <h3 class="text-2xl md:text-3xl font-bold text-primary-900 mb-3">
+              <h3 class="text-2xl md:text-3xl font-bold mb-3">
                 Хакатоны
               </h3>
             </div>
-            <p class="text-primary-700 leading-relaxed mb-6">
+            <p class="text-primary-200 leading-relaxed mb-6">
               Энергичное ведение хакатонов, поддержка участников, технические
               консультации, презентация проектов. Создание атмосферы
               продуктивности и драйва.
             </p>
-            <ul class="space-y-2 text-sm text-primary-600">
+            <ul class="space-y-2 text-sm text-primary-300">
               <li>• Открытие и закрытие</li>
               <li>• Техническая поддержка</li>
               <li>• Презентация проектов</li>
@@ -75,24 +75,24 @@
 
           <!-- Корпоративные события -->
           <div
-            class="bg-white border-2 border-primary-200 p-8 hover:border-primary-900 transition-all duration-300 group"
+            class="bg-black text-white border-2 border-primary-900 p-8 hover:border-primary-200 transition-all duration-300 group"
           >
             <div class="mb-6">
               <div
-                class="w-16 h-16 bg-primary-900 text-white flex items-center justify-center text-3xl font-black mb-4 group-hover:scale-110 transition-transform duration-300"
+                class="w-16 h-16 text-black bg-white flex items-center justify-center text-3xl font-black mb-4 group-hover:scale-110 transition-transform duration-300"
               >
                 03
               </div>
-              <h3 class="text-2xl md:text-3xl font-bold text-primary-900 mb-3">
+              <h3 class="text-2xl md:text-3xl font-boldmb-3">
                 Корпоративные события
               </h3>
             </div>
-            <p class="text-primary-700 leading-relaxed mb-6">
+            <p class="text-primary-200 leading-relaxed mb-6">
               Внутренние митапы, релиз-вечеринки, тимбилдинги, годовщины
               продуктов. Понимание корпоративной культуры и технического
               контекста.
             </p>
-            <ul class="space-y-2 text-sm text-primary-600">
+            <ul class="space-y-2 text-sm text-primary-300">
               <li>• Внутренние митапы</li>
               <li>• Релиз-вечеринки</li>
               <li>• Тимбилдинги</li>
@@ -102,24 +102,24 @@
 
           <!-- Tech Shows -->
           <div
-            class="bg-white border-2 border-primary-200 p-8 hover:border-primary-900 transition-all duration-300 group"
+            class="bg-black text-white border-2 border-primary-900 p-8 hover:border-primary-200 transition-all duration-300 group"
           >
             <div class="mb-6">
               <div
-                class="w-16 h-16 bg-primary-900 text-white flex items-center justify-center text-3xl font-black mb-4 group-hover:scale-110 transition-transform duration-300"
+                class="w-16 h-16 bg-white text-black flex items-center justify-center text-3xl font-black mb-4 group-hover:scale-110 transition-transform duration-300"
               >
                 04
               </div>
-              <h3 class="text-2xl md:text-3xl font-bold text-primary-900 mb-3">
+              <h3 class="text-2xl md:text-3xl font-bold mb-3">
                 Tech Shows
               </h3>
             </div>
-            <p class="text-primary-700 leading-relaxed mb-6">
+            <p class="text-primary-200 leading-relaxed mb-6">
               Технические подкасты, интервью с экспертами, live-кодинг сессии,
               обзоры технологий. Интерактивный формат с глубоким погружением в
               темы.
             </p>
-            <ul class="space-y-2 text-sm text-primary-600">
+            <ul class="space-y-2 text-sm text-primary-300">
               <li>• Технические интервью</li>
               <li>• Live-кодинг</li>
               <li>• Обзоры технологий</li>
@@ -129,23 +129,23 @@
 
           <!-- Митапы -->
           <div
-            class="bg-white border-2 border-primary-200 p-8 hover:border-primary-900 transition-all duration-300 group"
+            class="bg-black text-white border-2 border-primary-900 p-8 hover:border-primary-200 transition-all duration-300 group"
           >
             <div class="mb-6">
               <div
-                class="w-16 h-16 bg-primary-900 text-white flex items-center justify-center text-3xl font-black mb-4 group-hover:scale-110 transition-transform duration-300"
+                class="w-16 h-16 bg-white text-black flex items-center justify-center text-3xl font-black mb-4 group-hover:scale-110 transition-transform duration-300"
               >
                 05
               </div>
-              <h3 class="text-2xl md:text-3xl font-bold text-primary-900 mb-3">
+              <h3 class="text-2xl md:text-3xl font-bold mb-3">
                 Митапы
               </h3>
             </div>
-            <p class="text-primary-700 leading-relaxed mb-6">
+            <p class="text-primary-200 leading-relaxed mb-6">
               Регулярные встречи сообществ, локальные ивенты, нетворкинг-сессии.
               Создание комфортной атмосферы для обмена опытом.
             </p>
-            <ul class="space-y-2 text-sm text-primary-600">
+            <ul class="space-y-2 text-sm text-primary-300">
               <li>• Встречи сообществ</li>
               <li>• Нетворкинг</li>
               <li>• Локальные ивенты</li>
@@ -155,11 +155,11 @@
 
           <!-- Онлайн & Офлайн -->
           <div
-            class="bg-primary-900 text-white border-2 border-primary-900 p-8 hover:bg-primary-800 transition-all duration-300 group"
+            class="bg-white text-black border-2 border-primary-900 p-8 hover:bg-primary-100 transition-all duration-300 group"
           >
             <div class="mb-6">
               <div
-                class="w-16 h-16 bg-white text-primary-900 flex items-center justify-center text-3xl font-black mb-4 group-hover:scale-110 transition-transform duration-300"
+                class="w-16 h-16 bg-black text-white flex items-center justify-center text-3xl font-black mb-4 group-hover:scale-110 transition-transform duration-300"
               >
                 06
               </div>
@@ -167,12 +167,12 @@
                 Онлайн & Офлайн
               </h3>
             </div>
-            <p class="text-primary-200 leading-relaxed mb-6">
+            <p class="text-primary-700 leading-relaxed mb-6">
               Гибридные форматы, полностью онлайн-мероприятия, стримы,
               вебинары. Опыт работы с камерой, светом, звуком и интерактивными
               платформами.
             </p>
-            <ul class="space-y-2 text-sm text-primary-300">
+            <ul class="space-y-2 text-sm text-primary-600">
               <li>• Гибридные форматы</li>
               <li>• Онлайн-стримы</li>
               <li>• Вебинары</li>
