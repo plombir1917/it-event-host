@@ -24,8 +24,8 @@
 
   /* Единые вертикальные отступы для секций */
   .section-y {
-    padding-top: clamp(4.5rem, 9vh, 6rem);
-    padding-bottom: clamp(4.5rem, 9vh, 6rem);
+    padding-top: clamp(3.5rem, 7vh, 5rem);
+    padding-bottom: clamp(3.5rem, 7vh, 5rem);
   }
 
   .section-heading {
@@ -34,7 +34,7 @@
 
   /* Безопасный отступ от фиксированного хедера для страниц */
   .page-safe-top {
-    padding-top: clamp(4.5rem, 8vh, 6rem);
+    padding-top: clamp(3.5rem, 6vh, 5rem);
   }
 
   /* Высота Hero: ровно высота вьюпорта минус фиксированный хедер */
