@@ -26,7 +26,7 @@
           class="relative z-10 w-full text-center lg:text-left px-6 lg:px-12 py-16 lg:py-20 max-w-xl mx-auto lg:ml-auto"
         >
           <h1
-            class="text-5xl md:text-6xl lg:text-7xl xl:text-8xl font-black mb-6 leading-tight tracking-tight animate-fade-in-up"
+            class="text-4xl sm:text-lg md:text-6xl lg:text-6xl xl:text-7xl font-black mb-6 leading-tight tracking-tight animate-fade-in-up "
           >
             Ведущий-Программист
           </h1>
@@ -87,7 +87,7 @@
           class="relative w-full h-full flex items-center justify-center px-6 lg:px-12 py-16 lg:py-20"
         >
           <div
-            class="relative aspect-[4/5] overflow-hidden w-full max-w-[800px] mr-auto"
+            class="relative aspect-[4/5] overflow-hidden h-full w-full max-w-[800px] mr-auto"
           >
             <div
               class="absolute inset-0 opacity-[0.03] z-10"
