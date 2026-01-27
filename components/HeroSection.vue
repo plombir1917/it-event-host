@@ -30,7 +30,7 @@
               <h1
                 class="text-5xl md:text-6xl lg:text-7xl xl:text-8xl font-black mb-6 leading-tight tracking-tight animate-fade-in-up"
               >
-                Ведущий программист
+                Ведущий-Программист
               </h1>
 
               <!-- Подзаголовок -->
