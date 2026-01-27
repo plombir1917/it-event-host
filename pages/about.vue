@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="flex-1 page-safe-top">
     <AboutSection />
     <VideoSection />
     <EducationSection />
@@ -8,7 +8,7 @@
 
 <script setup lang="ts">
 useSeoMeta({
-  title: 'О ведущем | Захар Копич',
+  title: 'Обо мне | Захар Копич',
   description:
     'О ведущем-программисте: образование, опыт преподавания и практика ведения IT и бизнес-мероприятий.'
 })
