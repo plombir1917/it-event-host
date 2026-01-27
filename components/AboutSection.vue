@@ -37,70 +37,6 @@
               />
             </div>
           </div>
-
-          <!-- Текстовый блок -->
-          <div class="space-y-6 order-1 md:order-2">
-            <p
-              class="text-lg md:text-xl text-primary-700 leading-relaxed font-light"
-            >
-              Не просто ведущий. Программист с
-              <strong class="font-semibold text-primary-900"
-                >5+ годами опыта</strong
-              >
-              в разработке, который обладает исключительным навыками публичных выступлений.
-            </p>
-
-            <p class="text-lg md:text-xl text-primary-700 leading-relaxed">
-              Моя техническая экспертиза позволяет мне:
-            </p>
-
-            <ul class="space-y-4">
-              <li class="flex items-start gap-4">
-                <span
-                  class="flex-shrink-0 w-6 h-6 bg-primary-900 text-white rounded-full flex items-center justify-center text-sm font-bold mt-1"
-                >
-                  ✓
-                </span>
-                <span class="text-base md:text-lg text-primary-700"
-                  >Создавать атмосферу, где участники чувствуют себя
-                  понятыми</span
-                >
-              </li>
-              <li class="flex items-start gap-4">
-                <span
-                  class="flex-shrink-0 w-6 h-6 bg-primary-900 text-white rounded-full flex items-center justify-center text-sm font-bold mt-1"
-                >
-                  ✓
-                </span>
-                <span class="text-base md:text-lg text-primary-700"
-                  >Адаптировать контент под аудиторию — от гуманитариев до
-                  технических специалистов</span
-                >
-              </li>
-              <li class="flex items-start gap-4">
-                <span
-                  class="flex-shrink-0 w-6 h-6 bg-primary-900 text-white rounded-full flex items-center justify-center text-sm font-bold mt-1"
-                >
-                  ✓
-                </span>
-                <span class="text-base md:text-lg text-primary-700"
-                  >Управлять дискуссиями и панелями экспертов</span
-                >
-              </li>
-               <li class="flex items-start gap-4">
-                <span
-                  class="flex-shrink-0 w-6 h-6 bg-primary-900 text-white rounded-full flex items-center justify-center text-sm font-bold mt-1"
-                >
-                  ✓
-                </span>
-                <span class="text-base md:text-lg text-primary-700"
-                  >Глубоко понимать сложные доклады и задавать правильные
-                  вопросы</span
-                >
-              </li>
-            </ul>
-          </div>
-
           <!-- Визуальный блок / Статистика -->
           <div class="space-y-8">
             <div
@@ -145,7 +81,7 @@
             <!-- Дополнительная информация -->
             <div class="text-center">
               <p class="text-primary-600 text-sm md:text-base">
-                JavaScript • TypeScript • Python • Go • Cloud • DevOps
+                Технически подкованный ведущий мероприятий.
               </p>
             </div>
           </div>
