@@ -35,8 +35,7 @@
             class="text-xl md:text-2xl lg:text-3xl text-primary-100 font-light mb-12 max-w-2xl mx-auto lg:mx-0 leading-relaxed animate-fade-in-up"
             style="animation-delay: 0.2s"
           >
-            Айтишник на сцене. <br />
-            Опытный специалист на стыке технической экспертизы и событийного бизнеса.
+            Опытный специалист на стыке технической экспертизы и событийного бизнеса
           </p>
 
           <div
