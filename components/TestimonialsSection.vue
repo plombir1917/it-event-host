@@ -137,9 +137,9 @@
             <div class="flex items-center gap-4">
               <div class="flex-shrink-0">
                 <NuxtImg
-                  src="/images/reviews/.jpg"
-                  alt="Мария Волкова"
-                  class="w-12 h-12 rounded-full object-cover grayscale opacity-80"
+                  src="/images/reviews/third.jpg"
+                  alt="Илья Грыгин"
+                  class="w-12 h-12 rounded-full object-cover opacity-80"
                   loading="lazy"
                   format="webp"
                   quality="85"
@@ -147,9 +147,9 @@
                 />
               </div>
               <div>
-                <div class="font-bold">Мария Волкова</div>
+                <div class="font-bold">Илья Грыгин</div>
                 <div class="text-sm text-primary-300">
-                  Event Manager, BigTech Corp
+                  Директор, Faktura Event Agency
                 </div>
               </div>
             </div>
